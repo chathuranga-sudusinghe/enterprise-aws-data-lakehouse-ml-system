@@ -39,3 +39,18 @@ Thumbs.db
 
 # Docker
 *.tar
+
+# Virtual environment
+venv/
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Data
+data/
+model_artifacts/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
