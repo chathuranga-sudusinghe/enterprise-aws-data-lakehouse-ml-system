@@ -29,11 +29,6 @@ lakehouse/external/
 !lakehouse/transformations/
 !lakehouse/transformations/**
 
-# Model Artifacts
-model_artifacts/
-*.joblib
-*.pkl
-
 # Logs
 logs/
 *.log
