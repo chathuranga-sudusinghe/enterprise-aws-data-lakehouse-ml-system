@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Environment Variables
+.env
+.env.*
+
+# Pytest
+.pytest_cache/
+
+
+# Data Lakehouse (ignore ALL data)
+lakehouse/raw/
+lakehouse/processed/
+lakehouse/curated/
+lakehouse/splits/
+lakehouse/external/
+
+# keep transformation code
+!lakehouse/transformations/
+!lakehouse/transformations/**
+
+# Model Artifacts
+model_artifacts/
+*.joblib
+*.pkl
+
+# Pipeline Artifacts
+artifacts/
+artifacts/runs/
+
+# Logs
+logs/
+*.log
+
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Docker
+*.tar
+
+# Cache
+.pytest_cache/

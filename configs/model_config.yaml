@@ -1,0 +1,10 @@
+model:
+  name: fraud_lightgbm
+
+lightgbm:
+  objective: binary
+  n_estimators: 500
+  learning_rate: 0.05
+  num_leaves: 64
+  random_state: 42
+  n_jobs: -1

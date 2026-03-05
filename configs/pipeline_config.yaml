@@ -1,0 +1,14 @@
+training:
+  target_recall: 0.95
+  validation_split: 0.2
+
+evaluation:
+  metrics:
+    - roc_auc
+    - precision
+    - recall
+    - f1
+
+artifacts:
+  model_dir: model_artifacts
+  metrics_dir: model_artifacts

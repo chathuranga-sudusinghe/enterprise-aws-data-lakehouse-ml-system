@@ -1,0 +1,11 @@
+data:
+  raw_data_path: lakehouse/raw/transactions.parquet
+  processed_data_path: lakehouse/processed/train.parquet
+
+schema:
+  target_column: isFraud
+  id_column: TransactionID
+
+splitting:
+  validation_ratio: 0.2
+  random_state: 42

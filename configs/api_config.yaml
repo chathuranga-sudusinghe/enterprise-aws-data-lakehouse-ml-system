@@ -1,0 +1,9 @@
+api:
+  host: 0.0.0.0
+  port: 8000
+  workers: 1
+  log_level: INFO
+
+model:
+  model_path: artifacts/models/fraud_lgbm_v1.joblib
+  threshold_path: artifacts/models/threshold.json
