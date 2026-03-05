@@ -1,0 +1,35 @@
+{
+  "created_utc": "2026-03-04T15:56:20.051410+00:00",
+  "git_sha": "b92b3907008c06cb3adfe53d288d748ee1630ad7",
+  "inputs": {
+    "train_parquet": "D:\\Dev\\enterprise-aws-data-lakehouse-ml-system\\lakehouse\\splits\\X_train.parquet",
+    "train_parquet_sha256": "7afaf81af214c04365c4c1059901b11ed80b9c669be63430fb43e68e0a07a8af"
+  },
+  "metrics": {
+    "accuracy": 0.640138124780522,
+    "alert_rate": 0.3914198759218073,
+    "f1_score": 0.15617709219663492,
+    "fn": 149,
+    "fp": 30594,
+    "precision": 0.08508029546338108,
+    "recall": 0.9502338009352037,
+    "roc_auc": 0.9306685207962629,
+    "threshold": 0.008540712517184246,
+    "tn": 51842,
+    "tp": 2845
+  },
+  "outputs": {
+    "feature_columns_path": "model_artifacts\\feature_columns_v1.json",
+    "metadata_path": "model_artifacts\\metadata_v1.json",
+    "model_exists": true,
+    "model_path": "model_artifacts\\fraud_lgbm_v1.joblib",
+    "threshold_path": "model_artifacts\\threshold_v1.json",
+    "transformer_path": "model_artifacts\\feature_transformer_v1.joblib",
+    "x_train_parquet": "D:\\Dev\\enterprise-aws-data-lakehouse-ml-system\\lakehouse\\splits\\X_train.parquet",
+    "x_val_parquet": "D:\\Dev\\enterprise-aws-data-lakehouse-ml-system\\lakehouse\\splits\\X_val.parquet",
+    "y_train_parquet": "D:\\Dev\\enterprise-aws-data-lakehouse-ml-system\\lakehouse\\splits\\y_train.parquet",
+    "y_val_parquet": "D:\\Dev\\enterprise-aws-data-lakehouse-ml-system\\lakehouse\\splits\\y_val.parquet"
+  },
+  "run_id": "training_20260304T155620Z",
+  "stage": "training"
+}
