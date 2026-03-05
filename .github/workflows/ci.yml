@@ -33,7 +33,7 @@ jobs:
       # Run unit tests
       - name: Run tests
         run: |
-          export PYTHONPATH=$(pwd) 
+          pip install -e .
           python -m pytest tests/
 
       # Build Docker image
