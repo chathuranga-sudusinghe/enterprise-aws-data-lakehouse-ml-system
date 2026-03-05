@@ -7,8 +7,8 @@ on:
     branches: [ main ]
 
 jobs:
-  build-test:
 
+  build-test:
     runs-on: ubuntu-latest
 
     steps:
@@ -31,4 +31,4 @@ jobs:
 
     - name: Build docker
       run: |
-        docker build -t enterprise-ml-system .
+        docker build -t enterprise-ml-system -f docker/Dockerfile .
