@@ -7,4 +7,5 @@ joblib==1.5.3
 lightgbm==4.6.0
 scikit-learn==1.8.0
 kafka-python==2.0.2
-requests
+requests==2.32.3
+pytest
