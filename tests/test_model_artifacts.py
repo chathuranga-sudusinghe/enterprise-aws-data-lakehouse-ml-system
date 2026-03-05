@@ -8,7 +8,7 @@ ARTIFACT_DIR = PROJECT_ROOT / "model_artifacts"
 
 
 def test_model_file_exists():
-    model_path = ARTIFACT_DIR / "fraud_lgbm_v1.pkl"
+    model_path = ARTIFACT_DIR / "fraud_lgbm_v1.joblib"
     assert model_path.exists()
 
 
@@ -23,7 +23,7 @@ def test_feature_columns_file_exists():
 
 
 def test_model_can_load():
-    model_path = ARTIFACT_DIR / "fraud_lgbm_v1.pkl"
+    model_path = ARTIFACT_DIR / "fraud_lgbm_v1.joblib"
     model = joblib.load(model_path)
     assert model is not None
 
