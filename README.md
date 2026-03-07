@@ -1,28 +1,31 @@
 # Enterprise AWS Data Lakehouse ML System
 
-A production-oriented, end-to-end machine learning system built on AWS that combines lakehouse architecture, batch and streaming inference, workflow orchestration, API serving, monitoring, CI/CD, and infrastructure-as-code design.
+Production-grade end-to-end fraud/risk machine learning platform built on AWS, combining a lakehouse architecture, LightGBM-based modeling on ~600K transaction records, FastAPI serving, Kafka streaming, Airflow orchestration, monitoring, CI/CD, and Infrastructure as Code.
 
-This project is not a notebook-only ML workflow. It is designed as a **full AI production system** that demonstrates how raw data can move through a structured lakehouse pipeline into trained models, deployed APIs, orchestrated workflows, monitored services, and cloud-ready infrastructure.
+This project is designed as a **full AI production system**, not a notebook-only workflow. It demonstrates how large-scale tabular data can move through a structured lakehouse pipeline into trained models, batch and streaming inference services, orchestrated workflows, monitored APIs, and cloud-ready deployment components.
 
----
+> **Full AI Production System:** Lakehouse + LightGBM ML Pipeline + Batch Inference + Kafka Streaming + FastAPI API + Airflow Orchestration + Monitoring + CI/CD + AWS Deployment + Terraform IaC
 
-![CI](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/actions/workflows/ci.yml/badge.svg)
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-Production-green)
-![XGBoost](https://img.shields.io/badge/Model-XGBoost-orange)
+![LightGBM](https://img.shields.io/badge/LightGBM-Tabular_ML-success)
+![Kafka](https://img.shields.io/badge/Kafka-Streaming-black)
+![Airflow](https://img.shields.io/badge/Airflow-Orchestration-red)
 ![Docker](https://img.shields.io/badge/Docker-Containerized-blue)
-![Azure](https://img.shields.io/badge/Azure-Deployed-0078D4)
-![Tests](https://img.shields.io/badge/Tests-pytest-success)
+![Prometheus](https://img.shields.io/badge/Prometheus-Monitoring-orange)
+![Grafana](https://img.shields.io/badge/Grafana-Dashboards-orange)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub_Actions-success)
+![Terraform](https://img.shields.io/badge/Terraform-IaC-623CE4)
+![AWS](https://img.shields.io/badge/AWS-Deployed-yellow)
 
----
 ## Live Endpoints
 
 ### Local
-- API Docs: `http://127.0.0.1:8000/docs`
+- **API Docs:** `http://127.0.0.1:8000/docs`
 
 ### AWS
-- Lakehouse API ALB: `http://lakehouse-alb-1077782517.ap-south-1.elb.amazonaws.com`
-- Airflow ALB: `http://airflow-alb-2095583934.ap-south-1.elb.amazonaws.com`
+- **Lakehouse API ALB:** `http://lakehouse-alb-1077782517.ap-south-1.elb.amazonaws.com`
+- **Airflow ALB:** `http://airflow-alb-2095583934.ap-south-1.elb.amazonaws.com`
 
 ---
 
@@ -43,6 +46,21 @@ The goal of this project is to build an enterprise-style ML platform that covers
 - rollback-aware production thinking
 - AWS deployment structure
 - Terraform-based IaC foundation
+
+---
+
+## Key Capabilities
+
+- Lakehouse-based data architecture with raw, processed, curated, and split layers
+- LightGBM-based fraud/risk modeling workflow trained on ~600K transaction-level records
+- End-to-end ML pipeline with training, evaluation, thresholding, and artifact versioning
+- Batch inference and Kafka-based streaming inference
+- FastAPI production serving with health and metrics integration
+- Airflow DAG orchestration for retraining and batch scoring
+- Prometheus and Grafana monitoring stack
+- GitHub Actions CI/CD workflow
+- Terraform-based AWS infrastructure design
+- Rollback-aware production deployment thinking
 
 ---
 
@@ -276,3 +294,4 @@ AI Systems Engineer | Generative AI & LLM Architect | Production ML & MLOps | De
 
 Linkedin: https://www.linkedin.com/in/chathuranga-sudusinghe
 GutHub: https://github.com/chathuranga-sudusinghe
+
