@@ -45,16 +45,16 @@ variable "api_container_port" {
 }
 
 variable "api_cpu" {
-  type        = number
-  default     = 512
+  type    = number
+  default = 512
 }
 
 variable "api_memory" {
-  type        = number
-  default     = 1024
+  type    = number
+  default = 1024
 }
 
 variable "desired_count" {
-  type        = number
-  default     = 1
+  type    = number
+  default = 1
 }
