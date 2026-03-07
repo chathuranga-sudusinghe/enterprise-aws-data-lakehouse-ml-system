@@ -8,6 +8,10 @@ notebooks
 requirements_full.txt
 tests
 observability
-lakehouse
 terraform
 scripts
+lakehouse/raw
+lakehouse/external
+lakehouse/processed
+lakehouse/curated
+lakehouse/splits

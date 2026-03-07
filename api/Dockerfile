@@ -11,6 +11,7 @@ RUN pip install --no-cache-dir -r /app/requirements.txt
 
 COPY api /app/api
 COPY ml /app/ml
+COPY artifacts /app/artifacts
 COPY model_artifacts /app/model_artifacts
 
 EXPOSE 8000

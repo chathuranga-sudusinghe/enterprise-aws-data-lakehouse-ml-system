@@ -1,0 +1,14 @@
+variable "project_name" { type = string }
+variable "environment" { type = string }
+variable "vpc_id" { type = string }
+variable "private_subnet_ids" { type = list(string) }
+variable "ecs_task_execution_role" { type = string }
+variable "ecs_task_role" { type = string }
+variable "target_group_arn" { type = string }
+variable "alb_security_group_id" { type = string }
+variable "container_image" { type = string }
+variable "container_port" { type = number }
+variable "cpu" { type = number }
+variable "memory" { type = number }
+variable "desired_count" { type = number }
+variable "tags" { type = map(string) }
