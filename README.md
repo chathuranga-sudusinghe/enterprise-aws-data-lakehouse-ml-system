@@ -24,7 +24,7 @@ This project is designed as a **full AI production system**, not a notebook-only
 - **API Docs:** `http://127.0.0.1:8000/docs`
 
 ### AWS
-- **Lakehouse API ALB:** `http://lakehouse-alb-1077782517.ap-south-1.elb.amazonaws.com`
+- **Lakehouse API ALB:** `http://lakehouse-alb-1077782517.ap-south-1.elb.amazonaws.com/docs`
 - **Airflow ALB:** `http://airflow-alb-2095583934.ap-south-1.elb.amazonaws.com`
 
 ---
@@ -294,4 +294,5 @@ AI Systems Engineer | Generative AI & LLM Architect | Production ML & MLOps | De
 
 Linkedin: https://www.linkedin.com/in/chathuranga-sudusinghe
 GutHub: https://github.com/chathuranga-sudusinghe
+
 
