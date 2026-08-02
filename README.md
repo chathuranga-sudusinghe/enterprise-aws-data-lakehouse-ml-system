@@ -87,6 +87,13 @@ The completed Enterprise Fraud Detection ML System V2 CatBoost model was submitt
 
 ![Kaggle Notebook Score](docs/reports/ieee-cis-fraud-detection-notebook-score.png)
 
+## Architecture documentation (contributors)
+
+- **[System architecture & data flow](docs/architecture.md)** — end-to-end lakehouse → training → serving diagram
+- [Data lakehouse layers](docs/data_lakehouse.md)
+- [ML pipeline stages](docs/ml_pipeline.md)
+- [API reference](docs/api.md)
+
 ## Evidence and audit reports
 
 - [Current project repository audit](docs/reports/current_project_repository_audit.md)
